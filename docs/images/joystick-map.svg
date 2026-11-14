@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="Two compass diagrams comparing what the joystick's eight directions do in Play mode versus Menu mode. In Play, each of the eight directions selects a chord flavor, with the top position resetting to idle. In Menu, only the four cardinal directions are active -- up and down step the root note, left and right step the mode -- while the four diagonals do nothing, shown dashed.">
+  <text x="190" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#57606e">PLAY</text>
+  <text x="570" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#57606e">MENU &#8212; A3 toggle</text>
+
+  <circle cx="190" cy="190" r="95" fill="none" stroke="#57606e" stroke-width="1.5" opacity=".35"/>
+  <circle cx="570" cy="190" r="95" fill="none" stroke="#57606e" stroke-width="1.5" opacity=".35"/>
+  <circle cx="190" cy="190" r="5" fill="#57606e"/>
+  <circle cx="570" cy="190" r="5" fill="#57606e"/>
+
+  <!-- PLAY spokes -->
+  <line x1="190" y1="190" x2="190" y2="95" stroke="#d98c00" stroke-width="2"/>
+  <line x1="190" y1="190" x2="257" y2="123" stroke="#57606e" stroke-width="2"/>
+  <line x1="190" y1="190" x2="285" y2="190" stroke="#57606e" stroke-width="2"/>
+  <line x1="190" y1="190" x2="257" y2="257" stroke="#57606e" stroke-width="2"/>
+  <line x1="190" y1="190" x2="190" y2="285" stroke="#57606e" stroke-width="2"/>
+  <line x1="190" y1="190" x2="123" y2="257" stroke="#57606e" stroke-width="2"/>
+  <line x1="190" y1="190" x2="95" y2="190" stroke="#57606e" stroke-width="2"/>
+  <line x1="190" y1="190" x2="123" y2="123" stroke="#57606e" stroke-width="2"/>
+
+  <text x="190" y="68" text-anchor="middle" font-size="11" font-weight="700" fill="#d98c00">IDLE (reset)</text>
+  <text x="276" y="104" text-anchor="start" font-size="11" fill="#57606e">SUS4</text>
+  <text x="312" y="194" text-anchor="start" font-size="11" fill="#57606e">MINOR</text>
+  <text x="276" y="280" text-anchor="start" font-size="11" fill="#57606e">DIM</text>
+  <text x="190" y="312" text-anchor="middle" font-size="11" fill="#57606e">MIN7</text>
+  <text x="104" y="280" text-anchor="end" font-size="11" fill="#57606e">ADD9</text>
+  <text x="68" y="194" text-anchor="end" font-size="11" fill="#57606e">MAJOR</text>
+  <text x="104" y="104" text-anchor="end" font-size="11" fill="#57606e">SUS2</text>
+
+  <!-- MENU spokes: cardinals solid, diagonals dashed/inert -->
+  <line x1="570" y1="190" x2="570" y2="95" stroke="#57606e" stroke-width="2"/>
+  <line x1="570" y1="190" x2="637" y2="123" stroke="#57606e" stroke-width="1.5" stroke-dasharray="3,3" opacity=".4"/>
+  <line x1="570" y1="190" x2="665" y2="190" stroke="#57606e" stroke-width="2"/>
+  <line x1="570" y1="190" x2="637" y2="257" stroke="#57606e" stroke-width="1.5" stroke-dasharray="3,3" opacity=".4"/>
+  <line x1="570" y1="190" x2="570" y2="285" stroke="#57606e" stroke-width="2"/>
+  <line x1="570" y1="190" x2="503" y2="257" stroke="#57606e" stroke-width="1.5" stroke-dasharray="3,3" opacity=".4"/>
+  <line x1="570" y1="190" x2="475" y2="190" stroke="#57606e" stroke-width="2"/>
+  <line x1="570" y1="190" x2="503" y2="123" stroke="#57606e" stroke-width="1.5" stroke-dasharray="3,3" opacity=".4"/>
+
+  <text x="570" y="68" text-anchor="middle" font-size="11" font-weight="700" fill="#57606e">ROOT +1</text>
+  <text x="656" y="104" text-anchor="start" font-size="11" fill="#57606e" opacity=".45">&#183;</text>
+  <text x="692" y="194" text-anchor="start" font-size="11" font-weight="700" fill="#57606e">MODE &#8722;</text>
+  <text x="656" y="280" text-anchor="start" font-size="11" fill="#57606e" opacity=".45">&#183;</text>
+  <text x="570" y="312" text-anchor="middle" font-size="11" font-weight="700" fill="#57606e">ROOT &#8722;1</text>
+  <text x="484" y="280" text-anchor="end" font-size="11" fill="#57606e" opacity=".45">&#183;</text>
+  <text x="448" y="194" text-anchor="end" font-size="11" font-weight="700" fill="#57606e">MODE +</text>
+  <text x="484" y="104" text-anchor="end" font-size="11" fill="#57606e" opacity=".45">&#183;</text>
+
+  <text x="380" y="344" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">solid = active push &#183; dashed = inert in Menu</text>
+</svg>

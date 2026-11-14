@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="Korda faceplate diagram showing the OLED screen, the 8-direction joystick, the menu toggle button, the unused A0 pin reserved for a future DAC, the MIDI OUT jack, seven scale-degree note buttons, and the octave down/up buttons, each labeled with its Arduino pin.">
+  <rect x="8" y="6" width="744" height="308" rx="16" fill="none" stroke="#57606e" stroke-width="2" opacity=".55"/>
+
+  <!-- OLED -->
+  <rect x="40" y="36" width="150" height="80" rx="4" fill="none" stroke="#57606e" stroke-width="2"/>
+  <line x1="54" y1="54" x2="162" y2="54" stroke="#57606e" opacity=".5"/>
+  <line x1="54" y1="70" x2="142" y2="70" stroke="#57606e" opacity=".5"/>
+  <line x1="54" y1="86" x2="152" y2="86" stroke="#57606e" opacity=".5"/>
+  <text x="115" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">OLED 128&#215;64</text>
+  <text x="115" y="146" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">A4/A5 &#183; I2C 0x3C</text>
+
+  <!-- Joystick -->
+  <circle cx="250" cy="76" r="30" fill="none" stroke="#57606e" stroke-width="2"/>
+  <circle cx="250" cy="76" r="3" fill="#57606e"/>
+  <line x1="250" y1="46" x2="250" y2="38" stroke="#57606e" stroke-width="2"/>
+  <line x1="250" y1="106" x2="250" y2="114" stroke="#57606e" stroke-width="2"/>
+  <line x1="220" y1="76" x2="212" y2="76" stroke="#57606e" stroke-width="2"/>
+  <line x1="280" y1="76" x2="288" y2="76" stroke="#57606e" stroke-width="2"/>
+  <text x="250" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">JOYSTICK</text>
+  <text x="250" y="146" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">A1/A2 &#183; 8-dir + menu</text>
+
+  <!-- Menu button -->
+  <circle cx="330" cy="76" r="20" fill="none" stroke="#d98c00" stroke-width="2"/>
+  <circle cx="330" cy="76" r="7" fill="#d98c00"/>
+  <text x="330" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">MENU</text>
+  <text x="330" y="146" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">A3 &#183; toggle</text>
+
+  <!-- A0 reserved -->
+  <circle cx="400" cy="66" r="14" fill="none" stroke="#57606e" stroke-width="1.5" stroke-dasharray="3,3" opacity=".7"/>
+  <text x="400" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">A0</text>
+  <text x="400" y="146" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">reserved &#183; future DAC</text>
+
+  <!-- MIDI OUT -->
+  <circle cx="700" cy="158" r="24" fill="none" stroke="#57606e" stroke-width="2"/>
+  <circle cx="700" cy="158" r="3" fill="#57606e"/>
+  <text x="700" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">MIDI OUT</text>
+  <text x="700" y="210" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">Serial1 TX &#183; D1</text>
+
+  <!-- Note buttons 1-7 -->
+  <g>
+    <circle cx="50" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="50" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">1</text>
+    <circle cx="108" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="108" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">2</text>
+    <circle cx="166" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="166" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">3</text>
+    <circle cx="224" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="224" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">4</text>
+    <circle cx="282" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="282" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">5</text>
+    <circle cx="340" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="340" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">6</text>
+    <circle cx="398" cy="240" r="18" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="398" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#57606e">7</text>
+  </g>
+  <text x="224" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">NOTE BUTTONS 1&#8211;7</text>
+  <text x="224" y="292" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">D2&#8211;D8 &#183; scale degrees</text>
+
+  <!-- Octave buttons -->
+  <g>
+    <circle cx="470" cy="240" r="20" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="470" y="247" text-anchor="middle" font-size="18" font-weight="700" fill="#57606e">&#8722;</text>
+    <circle cx="540" cy="240" r="20" fill="none" stroke="#57606e" stroke-width="2"/>
+    <text x="540" y="247" text-anchor="middle" font-size="18" font-weight="700" fill="#57606e">+</text>
+  </g>
+  <text x="505" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#57606e">OCTAVE</text>
+  <text x="505" y="292" text-anchor="middle" font-size="10" fill="#57606e" opacity=".6">D9 / D10</text>
+</svg>
